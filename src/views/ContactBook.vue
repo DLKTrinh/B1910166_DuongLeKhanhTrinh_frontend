@@ -18,7 +18,7 @@
 
             <div class="mt-3 row justify-content-around align-items-center">
                 <button class="btn btn-sm btn-primary" @click="refreshList()">
-                    <i class="fa fa-redo"></i> Làm mới
+                    <font-awesome-icon icon="rotate-right" /> Làm mới
                 </button>
 
                 <button class="btn btn-sm btn-success" @click="goToAddContact">
@@ -29,7 +29,7 @@
                     class="btn btn-sm btn-danger"
                     @click="removeAllContacts"
                 >
-                    <i class="fas fa-trash"></i> Xóa tất cả
+                <font-awesome-icon icon="trash" /> Xóa tất cả
                 </button>
             </div>
         </div>
