@@ -8,7 +8,7 @@
         />
         <p>{{ message }}</p>
     </div>
-</template>
+</template>/
 
 <script>
     import ContactForm from "../components/ContactForm.vue";
